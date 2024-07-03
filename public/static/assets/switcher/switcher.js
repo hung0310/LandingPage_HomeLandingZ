@@ -16,7 +16,7 @@ jQuery(function($) {
         "purple": "Purple",
         "red": "Red",
         "yellow": "Yellow"
-    };
+    }; 
 
 
 

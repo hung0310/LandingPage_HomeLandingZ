@@ -76,7 +76,7 @@ const Testimonial = () => {
                             <p style={{ marginBottom: "2rem" }}>{testimonial.text}</p>
                           </blockquote>
                           <div className="testimonial-client-info" style={{ marginBottom: "4rem" }}>
-                            <span className="name fw-medium" style={{ color: "#F1439B", fontSize: "20px" }}>{testimonial.name}</span>
+                            <span className="name" style={{ color: "#48AEFF", fontSize: "20px", fontWeight: "600", fontFamily:"Open Sans, sans-serif" }}>{testimonial.name}</span>
                             <p className="company">{testimonial.company}</p>
                           </div>
                         </div>

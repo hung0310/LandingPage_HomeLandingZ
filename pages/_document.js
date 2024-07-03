@@ -23,7 +23,7 @@ class MyDocument extends Document {
           <script src="/static/assets/vendor/jqcbxgooglemap/jqcbxgooglemap.js"></script>
           <script src="/static/assets/js/theme.min.js"></script>
           <script src="/static/assets/js/custom.js"></script>
-          <script id="switcherhandle" type="text/javascript" src="/static/assets/switcher/switcher.js"></script>
+          {/* <script id="switcherhandle" type="text/javascript" src="/static/assets/switcher/switcher.js"></script> */}
         </body>
       </Html>
     );
