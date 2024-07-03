@@ -1,0 +1,22 @@
+.carousel-container {
+    position: relative;
+}
+
+.owl-carousel .item {
+    position: relative;
+    z-index: 1;
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    pointer-events: none; /* Để không ảnh hưởng đến tương tác người dùng */
+}
+
+.gallery-overlay img {
+    width: 100%; /* Tùy chỉnh kích thước theo ý bạn */
+    height: auto;
+}
