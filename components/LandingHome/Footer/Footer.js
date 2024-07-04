@@ -1,9 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Footer.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import {
+    faFacebookF,
+    faTwitter,
+    faLinkedinIn,
+    faPinterest,
+    faGooglePlusG,
+} from "@fortawesome/free-brands-svg-icons";
+
+import {
+    faWifi
+} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
-
     return (
         <footer>
             <div id="cbx-footer">
@@ -21,32 +33,32 @@ const Footer = () => {
                                 <ul className="social">
                                     <li>
                                         <a className="facebok" href="#">
-                                            <i className="fa fa-facebook" />
+                                            <FontAwesomeIcon icon={faFacebookF} />
                                         </a>
                                     </li>
                                     <li>
                                         <a className="twitter" href="#">
-                                            <i className="fa fa-twitter" />
+                                            <FontAwesomeIcon icon={faTwitter} />
                                         </a>
                                     </li>
                                     <li>
                                         <a className="linkedin" href="#">
-                                            <i className="fa fa-linkedin" />
+                                            <FontAwesomeIcon icon={faLinkedinIn} />
                                         </a>
                                     </li>
                                     <li>
                                         <a className="pinterest" href="#">
-                                            <i className="fa fa-pinterest" />
+                                            <FontAwesomeIcon icon={faPinterest} />
                                         </a>
                                     </li>
                                     <li>
                                         <a className="google-plus" href="#">
-                                            <i className="fa fa-google-plus" />
+                                            <FontAwesomeIcon icon={faGooglePlusG} />
                                         </a>
                                     </li>
                                     <li>
                                         <a className="rss" href="#">
-                                            <i className="fa fa-rss" />
+                                            <FontAwesomeIcon icon={faWifi} />
                                         </a>
                                     </li>
                                 </ul>
